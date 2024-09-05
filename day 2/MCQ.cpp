@@ -37,7 +37,7 @@ int main()
 //___________________________________________________________________________________
 
 //  ----------Arthametic Operators--------------------
-
+/*
 #include <iostream>
 using namespace std;
 int main()
@@ -54,7 +54,7 @@ int main()
     Addition = a + b;
     Subtruction = a - b;
     Multiplication = a * b;
-    Divide = a / (double)b;     
+    Divide = a / (double)b;
     Modulus = a % b;
 
     cout << "Addition : " << Addition << endl;
@@ -65,21 +65,6 @@ int main()
 
     return 0;
 }
-
+*/
 //__________________________________________________________________________________
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
