@@ -2,20 +2,20 @@
 
 #include <iostream>
 using namespace std;
-int mian()
+int main()
 {
     char ch;
 
     cout << "Enter the charecter : ";
     cin >> ch;
 
-    if (  ch >= 'a' && 'z' >= ch)
+    if (ch >= 'a' && ch <= 'z')
     {
-        cout << "lowercase"<<endl;
+        cout << "lowercase" << endl;
     }
     else
     {
-        cout << "uppercase"<<endl;
+        cout << "uppercase" << endl;
     }
     return 0;
 }
