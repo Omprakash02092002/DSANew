@@ -46,21 +46,66 @@ int main()
 */
 //______________________________________________________________________________________________________
 
+//  print number 1 to 5  using while loop.
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"enter number:";
+    cin>>n;
 
+    int count =1;
+    while(count<=n)
+    {
+        cout<<count<<" ";
+        count++;
+    }
 
+    return 0;
+}
+*/
+//_____________________________________________________________________________________
 
+//  print number 1 to 5  using while loop.
+/*
+#include<iostream>
+using namespace std;
+int main ()
+{
+    int n;
+    cout<<"Enter number : ";
+    cin>>n;
 
+    for(int i=1; i<=n; i++)
+    {
+        cout<<i<<" " ;
+    }
+    cout<<endl;
 
+    return 0;
+}
+*/
+//__________________________________________________________________________________________
 
+// Sum of numbers 1 to n.
 
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout << "Enter number : ";
+    cin >> n;
 
+    int sum = 0;
 
+    for (int i = 1; i <= n; i++)
+    {
+        sum += i;
+    }
+    cout << sum << endl;
 
-
-
-
-
-
-
-
-
+    return 0;
+}
