@@ -68,7 +68,7 @@ int main()
 */
 //_____________________________________________________________________________________
 
-//  print number 1 to 5  using while loop.
+//  print number 1 to 5  using for loop.
 /*
 #include<iostream>
 using namespace std;
@@ -90,7 +90,7 @@ int main ()
 //__________________________________________________________________________________________
 
 // Sum of numbers 1 to n.
-
+/*
 #include <iostream>
 using namespace std;
 int main()
@@ -109,3 +109,106 @@ int main()
 
     return 0;
 }
+*/
+//________________________________________________________________________________________
+
+// Sum of all oddSum number from 1 to N.
+/*
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout << "Enter the number : ";
+    cin >> n;
+
+    int sumOdd = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        if (i % 2 != 0)
+        {
+            sumOdd += i;
+        }
+
+    }
+     cout << sumOdd <<endl;
+
+
+    return 0;
+}
+*/
+//_________________________________________________________________________________________
+
+// Sum of all sumEven number from 1 to N.
+/*
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout << "Enter number : ";
+    cin >> n;
+
+    int sumEven = 0;
+
+    for (int i = 1; i <= n; i++)
+    {
+        if (i % 2 == 0)
+        {
+            sumEven += i;
+        }
+    }
+    cout << sumEven << endl;
+
+    return 0;
+}
+*/
+//____________________________________________________________________________________________
+
+// Sum of all sunEven number from 1 to N.(while loop)
+/*
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout << "Enter number : ";
+    cin >> n;
+
+    int sumEven = 0;
+    int i = 1;
+    while (i <= n)
+    {
+        if (i % 2 == 0)
+        {         
+             sumEven += i;            
+        }
+        i++;
+    }
+    cout<<sumEven<<endl;
+
+    return 0;
+}
+*/
+//___________________________________________________________________________________________
+
+// Check if a number is prime or not.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter a number : ";
+    cin>>n;
+
+    
+
+
+
+    return 0;
+}
+
+
+
+
