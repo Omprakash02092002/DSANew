@@ -183,7 +183,7 @@ int main()
         {
              sumEven += i;
         }
-        i++; 
+        i++;
     }
     cout<<sumEven<<endl;
 
@@ -229,29 +229,32 @@ int main()
 */
 //_________________________________________________________________________________________________________________
 
-//print factorial of a number N..
-/*
-#include<iostream>
+// print factorial of a number N..
+
+
+#include <iostream>
 using namespace std;
 main()
 {
     int n;
-    cout<<"Enetr the number : ";
-    cin>>n;
+    cout << "Enetr the number : ";
+    cin >> n;
 
-    int factorial =1;
-    for(int i=1;i<=n;i++)
+    int factorial = 1;
+    for (int i = 1; i <= n; i++)
     {
-        factorial*=i;
-        cout<<factorial<<endl;
+        factorial *= i;
+        cout << factorial << endl;
     }
-    cout<<endl;
-    
-    return 0;
+    cout << endl;
 
+    return 0;
 }
-*/
-//  Sum of all number from 1 to N which are divisible by 3.
+
+//__________________________________________________________________________________________________________
+    
+    //  Sum of all number from 1 to N which are divisible by 3.
+
 
 
 
