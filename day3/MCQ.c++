@@ -180,10 +180,10 @@ int main()
     while (i <= n)
     {
         if (i % 2 == 0)
-        {         
-             sumEven += i;            
+        {
+             sumEven += i;
         }
-        i++;
+        i++; 
     }
     cout<<sumEven<<endl;
 
@@ -193,7 +193,7 @@ int main()
 //___________________________________________________________________________________________
 
 // Check if a number is prime or not.
-
+/*
 #include<iostream>
 using namespace std;
 int main()
@@ -201,13 +201,59 @@ int main()
     int n;
     cout<<"Enter a number : ";
     cin>>n;
+    bool isprime = true;
 
-    
+    for(int i=2; i<=(n-1);i++)
+    {
+        if(n%2==0)     // not prime number
+        {
+            isprime = false;
+            break;
 
+        }
+    }
+
+
+        if(isprime == true)
+        {
+            cout<<"prime number";
+        }
+        else
+        {
+            cout<<"not prime number";
+        }
 
 
     return 0;
 }
+*/
+//_________________________________________________________________________________________________________________
+
+//print factorial of a number N..
+/*
+#include<iostream>
+using namespace std;
+main()
+{
+    int n;
+    cout<<"Enetr the number : ";
+    cin>>n;
+
+    int factorial =1;
+    for(int i=1;i<=n;i++)
+    {
+        factorial*=i;
+        cout<<factorial<<endl;
+    }
+    cout<<endl;
+    
+    return 0;
+
+}
+*/
+//  Sum of all number from 1 to N which are divisible by 3.
+
+
 
 
 
